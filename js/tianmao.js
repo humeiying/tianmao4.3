@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-03-26 21:01:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-02 22:41:07
+* @Last Modified time: 2018-04-03 15:44:10
 */
 {
 	let imgs=document.querySelectorAll(".banner_img");
@@ -149,7 +149,7 @@
 						clearInterval(t);
 					}
 					// 将当前滚动条的值设置为0
-					document.documentElement.scrollTop=0;
+					document.documentElement.scrollTop=st;
 				},25)
 			
 		}
@@ -167,7 +167,7 @@
 						clearInterval(t);
 					}
 					// 将当前滚动条的值设置为0
-					document.documentElement.scrollTop=0;
+					document.documentElement.scrollTop=st;
 				},25)
 			
 		}

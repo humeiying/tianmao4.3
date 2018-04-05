@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-03-24 21:40:00
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-02 22:40:41
+* @Last Modified time: 2018-04-04 14:59:47
 */
 @font-face {
   font-family: 'iconfont';  /* project id 603876 */
@@ -21,11 +21,16 @@ body{
 	background: #F2F2F2;
 	border-bottom: 1px solid #E5E5E5;
 }
+.daohang1{
+	width: 1226px;
+	height: 32px; 
+	margin: 0 auto;
+}
 .daohang_left{
 	width: 208px;
 	height: 32px;
+	margin-left: 0;
 	float: left;
-	margin-left: 45px;
 	line-height: 32px;
 }
 .daohang_left span{
@@ -61,10 +66,10 @@ body{
 	cursor: pointer;
 }
 .daohang_right{
-	width: 520px;
+	width: 600px;
 	height: 32px;
 	float: left;
-	margin-left: 503px;
+	margin-left: 400px;
 	/* overflow: hidden; */
 }
 .daohang_right:hover{
@@ -466,7 +471,7 @@ body{
 }
 /* head */
 .head{
-	width: 100%;
+	width: 1230px;
 	height: 35px;
 	margin: 0 auto;
 	background: white;
@@ -475,8 +480,7 @@ body{
 	width: 200px;
 	height: 36px;
 	background: #FE0036;
-	float: left;
-	margin-left: 60px;
+	margin-left: 0;	
 }
 .head_left span{
 	font-family: 'iconfont';
@@ -1114,7 +1118,7 @@ body{
 .guanfang{
 	margin-top: 10px;
     height: 90px;
-    width: 100%;
+    width: 1230px;
     overflow: hidden;
     display: block;
     margin: 0 auto;
@@ -1125,7 +1129,7 @@ body{
 	display: block;
     width: 1230px;
     height: 90px;
-    margin-left: 60px;
+	margin: 0 auto;
 }
 /* meili */
 .tianmao_top_left3{
@@ -1163,10 +1167,8 @@ body{
 .xihuan{
 	padding-right: 30px;
     width: 1200px;
-    margin: 30px auto 0;
     background:#F5F5F5;
-    float: left;
-    margin-left: 60px;
+    margin: 0 auto;
 }
 .wonderful-title{
 	color: #666;
